@@ -16,7 +16,7 @@ module holder() {
 			translate([92, 0, -20])
 				rotate([0, 30, 0])
 	 				cube([70, 60, 95], center=true);
-			translate([0, 26, 3])
+			translate([0, 27, 3])
 				rotate([90, 0, 180])
 					add_text(text="Coffee", height=4, size=18);
 		}
